@@ -37,6 +37,8 @@ public abstract class BaseBoss extends Enemy {
         this.currentHealth = maxHealth;
     }
 
+    System.out.println("ok");
+
     protected abstract void loadFrames();
     protected abstract void updateAI(int[][] lvlData, Player player);
     protected abstract void doAttack(Player player);
